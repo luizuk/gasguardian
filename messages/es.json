@@ -1,0 +1,20 @@
+{
+  "header": {
+    "products": "Productos",
+    "gastrends": "Predicción de Tiempo de Bajo Precio de Gas",
+    "automatedtransactions": "Automatización de Transacciones cuando el Gas es Bajo",
+    "login": "Login",
+    "connectWallet": "Conectar Billetera"
+  },
+  "login": {
+    "title": "Iniciar Sesión",
+    "emailLabel": "Correo Electrónico",
+    "passwordLabel": "Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "forgotPasswordLink": "¿Olvidaste tu contraseña?",
+    "loginError": "Ocurrió un error durante el inicio de sesión.",
+    "forgotPasswordTitle": "Recuperar Contraseña",
+    "resetPasswordButton": "Restablecer Contraseña",
+    "resetPasswordMessage": "Se han enviado instrucciones para restablecer tu contraseña a {email}."
+  }
+}

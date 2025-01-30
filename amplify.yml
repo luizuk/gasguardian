@@ -1,0 +1,32 @@
+version: 2
+backend:
+  phases:
+    build:
+      commands:
+        # Install Amplify CLI globally
+        - npm install -g @aws-amplify/cli
+        # Pull the latest backend environment with a timeout
+        - "timeout 300 amplify pull --appId $AWS_APP_ID --envName $AWS_BRANCH --yes"
+        # Push backend changes with a timeout and verbose logging
+        - "timeout 600 amplify push --yes --verbose"
+frontend:
+  phases:
+    preBuild:
+      commands:
+        # Install Yarn globally (if not already installed)
+        - npm install -g yarn
+        # Install frontend dependencies
+        - yarn install --frozen-lockfile --cache-folder .yarn-cache
+    build:
+      commands:
+        # Build the frontend using Yarn
+        - yarn build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - .next/cache/**/*
+      - .yarn-cache/**/*
+      - node_modules/**/*

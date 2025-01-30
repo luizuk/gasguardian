@@ -1,0 +1,22 @@
+{
+  "header": {
+    "products": "Products",
+    "gastrends": "Gas Low Price Time Prediction",
+    "automatedtransactions": "Automation of Transactions when Gas is Low",
+    "login": "Login",
+    "connectWallet": "Connect Wallet"
+  },
+  "login": {
+    "title": "Login",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "loginButton": "Log In",
+    "noAccount": "Don't have an account?",
+    "signupLink": "Sign up",
+    "forgotPasswordLink": "Forgot your password?",
+    "invalidCredentials": "Invalid email or password.",
+    "forgotPasswordTitle": "Forgot Password",
+    "resetPasswordButton": "Reset Password",
+    "resetPasswordMessage": "Instructions to reset your password have been sent to {email}."
+  }
+}

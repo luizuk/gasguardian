@@ -1,0 +1,20 @@
+{
+  "header": {
+    "products": "Produtos",
+    "gastrends": "Tendência de Preço Baixo de Gas",
+    "automatedtransactions": "Transações Automatizadas quando o Gas está Baixo",
+    "login": "Login",
+    "connectWallet": "Conectar Carteira"
+  },
+  "login": {
+    "title": "Entrar",
+    "emailLabel": "E-mail",
+    "passwordLabel": "Senha",
+    "loginButton": "Entrar",
+    "forgotPasswordLink": "Esqueceu sua senha?",
+    "loginError": "Ocorreu um erro durante o login.",
+    "forgotPasswordTitle": "Recuperar Senha",
+    "resetPasswordButton": "Redefinir Senha",
+    "resetPasswordMessage": "Instruções para redefinir sua senha foram enviadas para {email}."
+  }
+}
