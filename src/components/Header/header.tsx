@@ -142,7 +142,7 @@ export default function Header() {
     <header className="bg-gray-100 shadow-md w-full fixed top-0 z-50">
       <div className="container min-w-full mx-auto px-4 py-4 flex justify-between items-center">
         <a className="font-bold text-lg" href={`/${locale}`}>
-          GuardianGas
+          GasGuardian
         </a>
 
         {/* Mobile Navigation */}

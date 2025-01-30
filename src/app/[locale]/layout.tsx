@@ -10,8 +10,8 @@ const ubuntu = Ubuntu({ subsets: ["latin"], weight: ["400", "700"] });
 
 // Metadata
 export const metadata: Metadata = {
-  title: "Lupa Labs",
-  description: "Agentes de IA, Automação e Serviços Cloud.",
+  title: "GasGuardian",
+  description: "ETH Gas Optimization Tool.",
 };
 
 // RootLayout component
