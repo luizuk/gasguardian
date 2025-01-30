@@ -133,7 +133,7 @@ export default function Header() {
     {
       key: "connect",
       label: t("connectWallet"),
-      onClick: () => router.push(`/${locale}/login`),
+      onClick: () => {},
       className: "bg-blue-800 text-white hover:bg-blue-600",
     },
   ];
