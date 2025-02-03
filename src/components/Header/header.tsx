@@ -185,7 +185,9 @@ export default function Header() {
         <div className="fixed inset-0 z-50 bg-black bg-opacity-50 lg:hidden">
           <div className="fixed top-0 right-0 h-full w-10/12 bg-gray-100 shadow-lg transform transition-transform duration-300 ease-in-out">
             <div className="flex justify-between p-4">
-              <LogoText />
+              <a className="font-bold text-lg" href={`/${locale}`}>
+                GasGuardian
+              </a>
               <CloseButton onClick={toggleMenu} />
             </div>
 
