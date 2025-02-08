@@ -3,7 +3,6 @@
 
 import Header from "@/src/components/Header/header";
 import PageLogin from "@/src/components/Login/pageLogin";
-import Footer from "@/src/components/SiteSections/footer";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -11,8 +10,6 @@ import { useState } from "react";
 export default function LoginPage() {
   const t = useTranslations("login");
   const router = useRouter();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
   const handleLogin = async (
@@ -33,9 +30,6 @@ export default function LoginPage() {
       <Header />
 
       <PageLogin handleLogin={handleLogin} />
-
-      {/* Footer */}
-      <Footer />
     </main>
   );
 }
